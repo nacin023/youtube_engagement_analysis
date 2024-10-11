@@ -8,7 +8,7 @@ This project analyzes video performance and audience engagement on Marques Brown
 ### Main Goal:
 To analyze engagement trends and provide actionable insights that help content creators maximize engagement by optimizing video topics, timing, and content strategies.
 
-### Key Metrics (North Star KPIs):
+### Key Metrics:
 - Total views per video
 - Total likes per video
 - Total comments per video
