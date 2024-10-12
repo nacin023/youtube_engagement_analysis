@@ -15,11 +15,10 @@ To analyze engagement trends and provide actionable insights that help content c
 - Engagement ratios (likes per view, comments per view)
 
 ### Data Sources:
-Data was gathered using the YouTube Data API and included metadata such as video titles, descriptions, published dates, views, likes, and comments. The dataset consists of up to 5,000 videos from MKBHD's channel.
+Data was gathered using the YouTube Data API and included metadata such as video titles, descriptions, published dates, views, likes, and comments. The dataset consists of around 1600 videos from MKBHD's channel.
 
 ### Tools Used:
-- Python (Pandas, NumPy, Requests, Matplotlib, Seaborn, SciPy, Scikit-learn, NLTK, WordCloud) for [data collection and processing](https://github.com/nacin023/Youtube-Data-Analysis/blob/main/Data_Scraping_Youtube_Project.ipynb).
-- Tableau for data visualization.
+- Python (Pandas, NumPy, Requests, Matplotlib, Seaborn, SciPy, Scikit-learn, NLTK, WordCloud) for [data collection](https://github.com/nacin023/youtube_engagement_analysis/blob/main/1_data_collection.ipynb)and [Processing and Exploratory Data Analysis](https://github.com/nacin023/youtube_engagement_analysis/blob/main/2_preprocessing_and_eda.ipynb)
 
 ---
 
@@ -28,13 +27,13 @@ Data was gathered using the YouTube Data API and included metadata such as video
 ### Dataset Summary:
 The dataset includes the following key columns:
 - `title`: Title of the video.
-- `description`: Description provided by the content creator.
+- `description`: Description provided of the video
 - `views`: Total number of views per video.
 - `likes`: Total number of likes per video.
 - `comments`: Total number of comments per video.
 - `published_at`: Date when the video was published.
   
-Additional derived features such as title length, description length, giveaway indicator, and engagement ratios (likes per view, comments per view) were created during the preprocessing phase.
+Additional features were derived such as title length, description length, giveaway indicator, and engagement ratios (likes per view, comments per view) were created during the preprocessing phase.
 
 ---
 
@@ -42,9 +41,9 @@ Additional derived features such as title length, description length, giveaway i
 
 ### Key Insights Summary:
 1. **Skewed Engagement**: A few viral videos drive the bulk of engagement across views, likes, and comments. 
-2. **Content Focus**: Apple-related content continues to drive significant viewership, with the word 'iPhone' appearing in top-performing videos.
+2. **Content Focus**: Apple-related content continues to drive significant viewership, with the words 'Apple' and 'iPhone' appearing in top-performing videos.
 3. **Engagement Plateau**: While views have continued to grow, likes and comments show signs of leveling off since 2021.
-4. **High-Engagement Days**: Fridays are the most common day for posting top-performing videos, with 9 AM and 8 PM being optimal posting times.
+4. **High-Engagement Days**: Fridays seem to be the most common day for posting top-performing videos, with 9 AM and 8 PM being optimal posting times.
 
 ### Key Performance Metrics:
 - **Average views per video**: 3.99 million
@@ -56,10 +55,18 @@ Additional derived features such as title length, description length, giveaway i
   - **Likes**: Plateaued, with a slight decrease of 0.63%.
   - **Comments**: Decreased by 11%, suggesting reduced audience interaction despite increasing views and likes.
 
+        ![alt text](image-1.png)
+
 ### Best Performing Videos (2021-2023):
 - **2021**: *Reviewing Every iPhone Ever!* with 17.1 million views and 425,009 likes, published in October.
 - **2022**: *Google Hits Back at iMessage!* with 21.2 million views and 1,021,993 likes, published in November.
 - **2023**: *The World's Largest iPhone Has a Secret...* with 41.27 million views and 1.9 million likes, published in June.
+
+| Year | Video Title                                | Views    | Likes   | Month |
+|------|--------------------------------------------|----------|---------|-------|
+| 2021 | Reviewing Every iPhone Ever!               | 17,096,981 | 425,009 | 10    |
+| 2022 | Google Hits Back at iMessage!              | 21,232,167 | 1,021,993 11    |
+| 2023 | The World's Largest iPhone Has a Secret... | 41,267,741 | 1,903,098 6     |
 
 ---
 
@@ -94,7 +101,7 @@ Additional derived features such as title length, description length, giveaway i
    - Videos discussing product issues or controversies, such as "When Apple Gets It Wrong," have higher likes per view and comments per view, suggesting a strong audience interest in critique-based content.
    
 3. **Leverage Optimal Posting Times**:
-   - Continue publishing videos on Fridays, particularly around 9 AM or 8 PM, to maximize viewership and engagement.
+   - Consider planning to publish videos on Fridays, particularly around 9 AM or 8 PM, to maximize viewership and engagement. Except when the speed of upload is crucial such as covering a new product launch.
 
 4. **Focus on High-Engagement Topics**:
    - Content related to Apple, Tesla, and high-profile product launches consistently drives more views, likes, and comments. Prioritize these topics in future videos to maintain high engagement.
@@ -105,3 +112,6 @@ Additional derived features such as title length, description length, giveaway i
 - **Data Limitations**: The dataset only includes videos from Marques Brownlee’s YouTube channel, which may not be representative of broader YouTube engagement trends.
 - **Assumptions**: The use of TF-IDF vectorization and correlation analysis assumes that specific keywords in titles and descriptions play a significant role in driving engagement, though other factors like video promotion and external events may also influence outcomes.
 
+
+
+[def]: image.png
