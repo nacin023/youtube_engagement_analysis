@@ -18,7 +18,7 @@ To analyze engagement trends and provide actionable insights that help content c
 Data was gathered using the YouTube Data API and included metadata such as video titles, descriptions, published dates, views, likes, and comments. The dataset consists of around 1600 videos from MKBHD's channel.
 
 ### Tools Used:
-- Python (Pandas, NumPy, Requests, Matplotlib, Seaborn, SciPy, Scikit-learn, NLTK, WordCloud) for [data collection](https://github.com/nacin023/youtube_engagement_analysis/blob/main/1_data_collection.ipynb)and [Processing and Exploratory Data Analysis](https://github.com/nacin023/youtube_engagement_analysis/blob/main/2_preprocessing_and_eda.ipynb)
+- Python (Pandas, NumPy, Requests, Matplotlib, Seaborn, SciPy, Scikit-learn, NLTK, WordCloud) for [Data Collection](https://github.com/nacin023/youtube_engagement_analysis/blob/main/1_data_collection.ipynb) and [Processing and Exploratory Data Analysis](https://github.com/nacin023/youtube_engagement_analysis/blob/main/2_preprocessing_and_eda.ipynb)
 
 ---
 
@@ -65,8 +65,8 @@ Additional features were derived such as title length, description length, givea
 | Year | Video Title                                | Views    | Likes   | Month |
 |------|--------------------------------------------|----------|---------|-------|
 | 2021 | Reviewing Every iPhone Ever!               | 17,096,981 | 425,009 | 10    |
-| 2022 | Google Hits Back at iMessage!              | 21,232,167 | 1,021,993 11    |
-| 2023 | The World's Largest iPhone Has a Secret... | 41,267,741 | 1,903,098 6     |
+| 2022 | Google Hits Back at iMessage!              | 21,232,167 | 1,021,993 |11    |
+| 2023 | The World's Largest iPhone Has a Secret... | 41,267,741 | 1,903,098 | 6     |
 
 ---
 
