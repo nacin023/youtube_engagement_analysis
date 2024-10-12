@@ -18,7 +18,7 @@ To analyze engagement trends and provide actionable insights that help content c
 Data was gathered using the YouTube Data API and included metadata such as video titles, descriptions, published dates, views, likes, and comments. The dataset consists of around 1600 videos from MKBHD's channel.
 
 ### Tools Used:
-- Python (Pandas, NumPy, Requests, Matplotlib, Seaborn, SciPy, Scikit-learn, NLTK, WordCloud) for [Data Collection](https://github.com/nacin023/youtube_engagement_analysis/blob/main/1_data_collection.ipynb)  and  [Processing and Exploratory Data Analysis](https://github.com/nacin023/youtube_engagement_analysis/blob/main/2_preprocessing_and_eda.ipynb)
+- Python (Pandas, NumPy, Requests, Matplotlib, Seaborn, SciPy, Scikit-learn, NLTK, WordCloud) for [Data Collection](https://github.com/nacin023/youtube_engagement_analysis/blob/main/1_data_collection.ipynb) and [Preprocessing & Exploratory Data Analysis](https://github.com/nacin023/youtube_engagement_analysis/blob/main/2_preprocessing_and_eda.ipynb)
 
 ---
 
