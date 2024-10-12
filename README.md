@@ -55,7 +55,7 @@ Additional features were derived such as title length, description length, givea
   - **Likes**: Plateaued, with a slight decrease of 0.63%.
   - **Comments**: Decreased by 11%, suggesting reduced audience interaction despite increasing views and likes.
 
-<img src="image-1.png" alt="alt text" width="550"/>
+<img src="image-1.png" alt="alt text" width="700"/>
 
 
 ### Best Performing Videos (2021-2023):
