@@ -1,4 +1,4 @@
-# Enhancing YouTube Engagement: Analyzing Marques Brownlee (MKBHD) Channel (2014-2023)
+# Enhancing YouTube Engagement: Analyzing Marques Brownlee's (MKBHD) Channel (2014-2023)
 
 ## Background and Overview
 
